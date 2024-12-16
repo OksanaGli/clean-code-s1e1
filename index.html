@@ -16,26 +16,26 @@
       <label class="task__title heading" for="new-task">Add Item</label>
       <div class="task__wrapper">
         <input class="task__field field" id="new-task" type="text">
-        <button class="button">Add</button>
+        <button class="button button--add">Add</button>
       </div>      
     </div>
     <h2 class="heading">Todo</h2>
     <ul class="tasks__list incomplete">
       <li class="incomplete__item">
         <input class="checkbox" type="checkbox">
-        <label class="label">Pay Bills</label>
+        <label class="label label--completed">Pay Bills</label>
         <input class="field field--hidden" type="text">
-        <button class="button">Edit</button>
-        <button class="button">
+        <button class="button edit">Edit</button>
+        <button class="button delete">
           <img class="button__image" src="./remove.svg" alt="Remove button.">
         </button>
       </li>
       <li class="incomplete__item incomplete__edit-mode">
         <input class="checkbox" type="checkbox">
-        <label class="label label--hidden">Go Shopping</label>
+        <label class="label label--hidden label--completed">Go Shopping</label>
         <input class="field" type="text" value="Go Shopping">
-        <button class="button">Save</button>
-        <button class="button">
+        <button class="button edit">Save</button>
+        <button class="button delete">
           <img class="button__image" src="./remove.svg" alt="Remove button.">
         </button>
       </li>
@@ -46,8 +46,8 @@
         <input class="checkbox" type="checkbox" checked>
         <label class="label label--completed">See the Doctor</label>
         <input class="field field--hidden" type="text">
-        <button class="button">Edit</button>
-        <button class="button">
+        <button class="button edit">Edit</button>
+        <button class="button delete">
           <img class="button__image" src="./remove.svg" alt="Remove button.">
         </button>
       </li>
